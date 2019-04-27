@@ -4,26 +4,26 @@
 [ext_resource path="res://assets/rogue like character/rogue like idle_Animation 1_0.png" type="Texture" id=2]
 [ext_resource path="res://assets/rogue like character/rogue like idle_Animation 1_1.png" type="Texture" id=3]
 [ext_resource path="res://assets/rogue like character/rogue like idle_Animation 1_2.png" type="Texture" id=4]
-[ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_0.png" type="Texture" id=5]
-[ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_1.png" type="Texture" id=6]
-[ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_2.png" type="Texture" id=7]
-[ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_3.png" type="Texture" id=8]
-[ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_4.png" type="Texture" id=9]
-[ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_5.png" type="Texture" id=10]
-[ext_resource path="res://assets/rogue like character/roguelike run down_Animation 1_0.png" type="Texture" id=11]
-[ext_resource path="res://assets/rogue like character/roguelike run down_Animation 1_1.png" type="Texture" id=12]
-[ext_resource path="res://assets/rogue like character/roguelike run down_Animation 1_2.png" type="Texture" id=13]
-[ext_resource path="res://assets/rogue like character/roguelike run down_Animation 1_3.png" type="Texture" id=14]
-[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_1.png" type="Texture" id=15]
-[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_2.png" type="Texture" id=16]
-[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_3.png" type="Texture" id=17]
-[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_0.png" type="Texture" id=18]
-[ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_0.png" type="Texture" id=19]
-[ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_1.png" type="Texture" id=20]
-[ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_2.png" type="Texture" id=21]
-[ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_3.png" type="Texture" id=22]
-[ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_4.png" type="Texture" id=23]
-[ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_5.png" type="Texture" id=24]
+[ext_resource path="res://assets/rogue like character/roguelike run down_Animation 1_0.png" type="Texture" id=5]
+[ext_resource path="res://assets/rogue like character/roguelike run down_Animation 1_1.png" type="Texture" id=6]
+[ext_resource path="res://assets/rogue like character/roguelike run down_Animation 1_2.png" type="Texture" id=7]
+[ext_resource path="res://assets/rogue like character/roguelike run down_Animation 1_3.png" type="Texture" id=8]
+[ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_0.png" type="Texture" id=9]
+[ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_1.png" type="Texture" id=10]
+[ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_2.png" type="Texture" id=11]
+[ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_3.png" type="Texture" id=12]
+[ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_4.png" type="Texture" id=13]
+[ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_5.png" type="Texture" id=14]
+[ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_0.png" type="Texture" id=15]
+[ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_1.png" type="Texture" id=16]
+[ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_2.png" type="Texture" id=17]
+[ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_3.png" type="Texture" id=18]
+[ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_4.png" type="Texture" id=19]
+[ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_5.png" type="Texture" id=20]
+[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_1.png" type="Texture" id=21]
+[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_2.png" type="Texture" id=22]
+[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_3.png" type="Texture" id=23]
+[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_0.png" type="Texture" id=24]
 
 [sub_resource type="CircleShape2D" id=1]
 
@@ -34,41 +34,39 @@ animations = [ {
 "name": "idle",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ],
-"loop": true,
-"name": "run_left",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ) ],
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ) ],
 "loop": true,
 "name": "run_down",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
+"frames": [ ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ) ],
 "loop": true,
-"name": "run_up",
+"name": "run_left",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ) ],
+"frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ) ],
 "loop": true,
 "name": "run_right",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "run_up",
+"speed": 5.0
 } ]
 
-[node name="player" type="Node2D"]
-
-[node name="player_kinematicbody2d" type="KinematicBody2D" parent="."]
+[node name="player" type="KinematicBody2D"]
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="player_kinematicbody2d"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 0, 8 )
 scale = Vector2( 0.5, 0.5 )
 shape = SubResource( 1 )
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="player_kinematicbody2d"]
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 2 )
 animation = "run_up"

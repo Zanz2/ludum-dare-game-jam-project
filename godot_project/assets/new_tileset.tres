@@ -5,7 +5,7 @@
 [sub_resource type="OccluderPolygon2D" id=4]
 polygon = PoolVector2Array( 0, 0, 112, 0, 112, 64, 0, 64 )
 
-[sub_resource type="ConvexPolygonShape2D" id=1]
+[sub_resource type="ConvexPolygonShape2D" id=6]
 points = PoolVector2Array( 0, 0, 112, 0, 112, 64, 0, 64 )
 
 [sub_resource type="OccluderPolygon2D" id=5]
@@ -243,7 +243,7 @@ points = PoolVector2Array( 9.35101, 26.6064, 15.7699, 26.6064, 16.049, 29.9553, 
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
 "one_way_margin": 1.0,
-"shape": SubResource( 1 ),
+"shape": SubResource( 6 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 23/z_index = 0
