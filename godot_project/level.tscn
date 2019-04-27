@@ -2,7 +2,7 @@
 
 [ext_resource path="res://assets/new_tileset.tres" type="TileSet" id=1]
 
-[node name="Node2D" type="Node2D"]
+[node name="level" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
@@ -13,5 +13,6 @@ tile_data = PoolIntArray( 0, 1, 0, 1, 1, 1, 2, 1, 1, 3, 1, 2, 4, 2, 0, 5, 2, 2, 
 [node name="overlay" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 16, 16 )
-tile_data = PoolIntArray( 4, 536870916, 0, 5, 4, 0, 131076, 536870916, 0, 131077, 4, 0, 262148, 536870916, 0, 262149, 4, 0, 720904, 4, 0 )
+format = 1
+tile_data = PoolIntArray( 0, 116, 0, 4, 0, 0, 131076, 536870916, 0, 262148, 536870916, 0, 720904, 4, 0 )
 
