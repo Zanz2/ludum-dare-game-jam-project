@@ -7,10 +7,10 @@
 [ext_resource path="res://assets/rogue like character/roguelike run down_Animation 1_1.png" type="Texture" id=5]
 [ext_resource path="res://assets/rogue like character/roguelike run down_Animation 1_2.png" type="Texture" id=6]
 [ext_resource path="res://assets/rogue like character/roguelike run down_Animation 1_3.png" type="Texture" id=7]
-[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_1.png" type="Texture" id=8]
-[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_2.png" type="Texture" id=9]
-[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_3.png" type="Texture" id=10]
-[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_0.png" type="Texture" id=11]
+[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_0.png" type="Texture" id=8]
+[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_1.png" type="Texture" id=9]
+[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_2.png" type="Texture" id=10]
+[ext_resource path="res://assets/rogue like character/rogue like run up_Animation 1_3.png" type="Texture" id=11]
 [ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_0.png" type="Texture" id=12]
 [ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_1.png" type="Texture" id=13]
 [ext_resource path="res://assets/rogue like character/rogue like run_Animation_left 1_2.png" type="Texture" id=14]
@@ -66,5 +66,7 @@ shape = SubResource( 1 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D"]
 scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 2 )
-animation = "run_left"
+animation = "run_up"
+frame = 3
+playing = true
 
