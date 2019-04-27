@@ -1,12 +1,12 @@
 # Life is currency
 
 It's a survival platformer with aspects of RPG. Main point is to survive threats of being killed by mafia, 
-while trying to find good enaugh weapon to beat them and therefore win the game.
+while trying to find good enough weapon to beat them and therefore win the game.
 
 ## Lore
 
 You are new citizen of Gallet City. There are bad guys called OgLedvica - Mafia, which kidnapped you on the first day and
-gave you an offer which you couldn't refuse. In order to survive a day, you have to supply them human organs until 10 PM.
+gave you an offer which you couldn't refuse. In order to survive the day, you have to supply them human organs until 10 PM.
 
 So it's up to you how will you manage to survive, but one can't kill mafia with no weapon..
 
@@ -28,7 +28,7 @@ __Other players (AI)__:
 * Different kinds(mafia, healthy, smoker, alcoholic,..), for example smoker has bad lungs and alcoholic will have bad kidneys.
 If mafia finds out(probability) player supplied them _bad quality_ organs, they can demand(probability) more organs next day.
 * Each AI has its weekneses. For example: smoker will get tiered really fast and will be easier to kill
-* Maifa is special AI which can not be damaged and therefore killed, unless they are shoot with __the gun__ from player.
+* Mafia is special AI which can not be damaged and therefore killed, unless they are shoot with __the gun__ from player.
 
 __Mafia__:
 * Demands organs until 10 PM each day
@@ -62,5 +62,5 @@ __The gun__:
 * Special weapon
 * Can be found by player in order to kill mafia
 
-## If enaugh time 
+## If enugh time 
 * Player can make friends which can help getting organs from other and can defend player
