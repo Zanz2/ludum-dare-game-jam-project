@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wizard idle.png-d2d52f56db4837f8338d1de74b3d3be1.stex"
+path="res://.import/tile009.png-1f9f94338dd0c09732bd4cc2a08b095f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/mafia/wizard idle.png"
-dest_files=[ "res://.import/wizard idle.png-d2d52f56db4837f8338d1de74b3d3be1.stex" ]
+source_file="res://assets/mafia/seperate_frames/tile009.png"
+dest_files=[ "res://.import/tile009.png-1f9f94338dd0c09732bd4cc2a08b095f.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -30,5 +30,5 @@ process/HDR_as_SRGB=false
 process/invert_color=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0
