@@ -2,7 +2,9 @@
 
 [ext_resource path="res://src/area/level.tscn" type="PackedScene" id=1]
 [ext_resource path="res://src/player/player.tscn" type="PackedScene" id=2]
-[ext_resource path="res://src/npcs/brown/ai_brown.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/npcs/ai/ai_node.tscn" type="PackedScene" id=3]
+
+
 
 [node name="main" type="Node2D"]
 

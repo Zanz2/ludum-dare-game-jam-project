@@ -4,19 +4,23 @@ extends KinematicBody2D
 const MOVEMENT_SPEED = 100 # movement speed
 var motion = Vector2(); # direction vector
 var directionAi = null # direction of ai as string
+onready var spriteNode=$"ai_animated_sprite"
+onready var timer=get_node("aiTimer")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	timer.connect("timeout", self, "_on_Timer_timeout")
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
-	directionAi = moveAi() # ai follows player around
-	motion = move_and_slide(motion) # from specs move_and_slide returns remaing motion
-	setAiSprite(motion, directionAi) # set sprite for character
 	
 	pass
 	
+func _on_Timer_timeout():
+	directionAi = moveAi() # ai follows player around (not yet though, hehehe)
+	motion = move_and_slide(motion) # from specs move_and_slide returns remaing motion
+	setAiSprite(motion, directionAi) # set sprite for character
 
 func moveAi():
 	var directionAi = null # where is ai headed
@@ -44,15 +48,14 @@ func moveAi():
 
 # set ai's sprite based on motion
 func setAiSprite(motion, directionAi):
-	var aiSprite = get_node("ai_brown_sprite")
 	# if ai is still, idle sprite should be used
 	if (directionAi == null):
-		aiSprite.play("idle")
+		spriteNode.play("idle")
 	elif (directionAi == "ui_right"):
-		aiSprite.play("run_right")
+		spriteNode.play("run_right")
 	elif (directionAi == "ui_left"):
-		aiSprite.play("run_left")
+		spriteNode.play("run_left")
 	elif (directionAi == "ui_up"):
-		aiSprite.play("run_up")
+		spriteNode.play("run_up")
 	elif (directionAi == "ui_down"):
-		aiSprite.play("run_down")
+		spriteNode.play("run_down")
