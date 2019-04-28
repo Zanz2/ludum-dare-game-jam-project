@@ -49,9 +49,9 @@ animations = [ {
 position = Vector2( 2.76149, 19.5428 )
 shape = SubResource( 2 )
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D"]
+[node name="mafia_cultist_sprite" type="AnimatedSprite" parent="KinematicBody2D"]
 frames = SubResource( 1 )
 animation = "run_right"
-frame = 2
+frame = 3
 playing = true
 
