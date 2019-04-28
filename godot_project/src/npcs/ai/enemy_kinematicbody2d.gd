@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 
-const MOVEMENT_SPEED = 100 # movement speed
+const MOVEMENT_SPEED = 300 # movement speed
 var motion = Vector2(); # direction vector
 var directionAi = null # direction of ai as string
 onready var spriteNode=$"ai_animated_sprite"
@@ -45,6 +45,7 @@ func moveAi():
 		motion.y = 0
 		
 	return directionAi
+
 
 # set ai's sprite based on motion
 func setAiSprite(motion, directionAi):
