@@ -1,6 +1,6 @@
 [gd_scene load_steps=27 format=2]
 
-[ext_resource path="res://player_kinematicbody2.gd" type="Script" id=1]
+[ext_resource path="res://src/player/player_kinematicbody2.gd" type="Script" id=1]
 [ext_resource path="res://assets/rogue like character/rogue like idle_Animation 1_0.png" type="Texture" id=2]
 [ext_resource path="res://assets/rogue like character/rogue like idle_Animation 1_1.png" type="Texture" id=3]
 [ext_resource path="res://assets/rogue like character/rogue like idle_Animation 1_2.png" type="Texture" id=4]
@@ -24,6 +24,7 @@
 [ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_3.png" type="Texture" id=22]
 [ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_4.png" type="Texture" id=23]
 [ext_resource path="res://assets/rogue like character/rogue like run_Animation 1_5.png" type="Texture" id=24]
+
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
