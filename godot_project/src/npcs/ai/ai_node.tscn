@@ -34,7 +34,6 @@ shape = SubResource( 1 )
 
 [node name="aiTimer" type="Timer" parent="KinematicBody2D"]
 wait_time = 2.0
-autostart = true
 script = SubResource( 2 )
 
 [node name="ai_animated_sprite" type="AnimatedSprite" parent="KinematicBody2D"]
